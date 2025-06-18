@@ -17,6 +17,7 @@ function App() {
   return (
     <>
   <div>
+    <Nav />
     <Routes>
 <Route path='/' element={<Home/>} /> 
 <Route path='/collection' element={<Collection/>} /> 
