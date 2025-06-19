@@ -1,5 +1,8 @@
 {
   "dependencies": {
-    "react-bootstrap": "^2.10.10"
+    "@tailwindcss/vite": "^4.1.10",
+    "react-bootstrap": "^2.10.10",
+    "react-router-dom": "^7.6.2",
+    "tailwindcss": "^4.1.10"
   }
 }
