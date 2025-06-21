@@ -1,5 +1,4 @@
 import React from 'react'
-import namasteImg from '../../assets/image.png';
 import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
