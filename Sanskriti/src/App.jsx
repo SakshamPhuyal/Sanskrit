@@ -10,7 +10,7 @@ import Contact from './Components/Pages/Contact';
 import Product from './Components/Pages/product';
 import Cart from './Components/Pages/cart';
 import Login from './Components/Pages/Login';
-import Orders from './Components/Pages/Orders';
+import Flipcard from './Components/Pages/flipcard';
 import Shop from './Components/Pages/shop';
 import Productdetails from './Components/Pages/productdetails';
 function App() {
@@ -28,7 +28,7 @@ function App() {
 <Route path='/product/:productId' element={<Product/>} /> 
 <Route path='/cart' element={<Cart/>} /> 
 <Route path='/login' element={<Login/>} /> 
-<Route path='/orders' element={<Orders/>} /> 
+<Route path='/flipcard' element={<Flipcard/>} /> 
 <Route path='/shop' element={<Shop/>} /> 
 <Route path='/productdetails' element={<Productdetails/>} /> 
     </Routes>
