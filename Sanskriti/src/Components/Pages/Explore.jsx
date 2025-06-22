@@ -5,9 +5,41 @@ import daloImg from '../../assets/dalo.png';
 import pathiImg from '../../assets/pathi.png';
 import jatoImg from '../../assets/jato.png';
 import haloImg from '../../assets/halo.png';
+import ghyampoImg from '../../assets/ghyampo.png';
+import sukulImg from '../../assets/sukul.png';
+import karuwaImg from '../../assets/karuwa.png';
+import manoImg from '../../assets/mano.png';
+import juwaImg from '../../assets/juwa.png';
+import nangloImg from '../../assets/nanglo.png';
 import dhikiImg from '../../assets/dhiki.png';
+import ghaitoImg from '../../assets/ghaito.png';
+
 import Flipcard from './flipcard';
 const product =[
+   {
+    title:'Jato (जाँतो)',
+    image:jatoImg,
+    description:'Stone grinder made from two circular stone.',
+    useText:'Used to grind grains like corn, millet, and wheat into flour manually by rotating the top stone.',
+    },
+     {
+    title:'Dhiki (ढिकी)',
+    image:dhikiImg,
+    description:'Wooden lever system used for pounding grains.',
+    useText:'Used in traditional Nepali agriculture to till and prepare the soil before planting.',
+    },
+         {
+    title:'Halo (हलो)',
+    image:haloImg,
+    description:'A wooden plough, often attached to oxen.',
+    useText:'Historically, the doko was used by Nepalese villagers to carry crops, goods, and firewood.',
+    },
+            {
+    title:'Juwa (जुवा)',
+    image:juwaImg,
+    description:'A wooden yoke used to harness oxen for plowing.',
+    useText:'Ties two oxen together. Helps plow fields in traditional farming.',
+    },
   {
     title:'Doko (डोको)',
     image:dokoImg,
@@ -20,29 +52,43 @@ const product =[
     description:'A round, shallow bamboo basket with a flat base.',
     useText:' Commonly used to carry grains, vegetables, or fruits—especially during harvests or market visits.',
     },
+         {
+    title:'Mano (मानो)',
+    image:manoImg,
+    description:'A traditional Nepali container used to measure grains.',
+    useText:'Measuring rice, lentils, and cereals in small scale. Used in markets and homes.',
+    },
+     
       {
     title:'Pathi (पाथी)',
     image:pathiImg,
     description:' Measuring container made of brass, wood, or bamboo.',
     useText:'Used to measure grains like rice, maize, and wheat. One Pathi is equal to around 4.5 kg of rice..',
     },
-      {
-    title:'Jato (जाँतो)',
-    image:jatoImg,
-    description:'Stone grinder made from two circular stone.',
-    useText:'Used to grind grains like corn, millet, and wheat into flour manually by rotating the top stone.',
+  
+        {
+    title:'Nanglo (नाङ्लो)',
+    image:nangloImg,
+    description:'A flat, round bamboo tray.',
+    useText:'Cleaning rice and grains. Drying vegetables or grains.',
     },
-      {
-    title:'Halo (हलो)',
-    image:haloImg,
-    description:'A wooden plough, often attached to oxen.',
-    useText:'Historically, the doko was used by Nepalese villagers to carry crops, goods, and firewood.',
+        {
+    title:'Sukul (सुकुल)',
+    image:sukulImg,
+    description:'A straw mat used for flooring.',
+    useText:'Lining floors in traditional homes. Used during festivals and ceremonies for sitting.',
     },
-    {
-    title:'Dhiki (ढिकी)',
-    image:dhikiImg,
-    description:'Wooden lever system used for pounding grains.',
-    useText:'Used in traditional Nepali agriculture to till and prepare the soil before planting.',
+        {
+    title:'Ghaito (घैटो)',
+    image:ghaitoImg,
+    description:'A traditional clay or brass water pot.',
+    useText:'Used for storing and pouring water. Used in daily and ritual practices.',
+    },
+        {
+    title:'Ghaympo (घ्याम्पो)',
+    image:ghyampoImg,
+    description:'Container made up of clay.',
+    useText:'Used in kitchens and religious rituals for storing water and grains.',
     },
   ]
 const Explore = () => {
