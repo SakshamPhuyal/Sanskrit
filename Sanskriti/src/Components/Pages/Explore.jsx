@@ -13,7 +13,7 @@ import juwaImg from '../../assets/juwa.png';
 import nangloImg from '../../assets/nanglo.png';
 import dhikiImg from '../../assets/dhiki.png';
 import ghaitoImg from '../../assets/ghaito.png';
-
+import radiImg from '../../assets/radi.png';
 import Flipcard from './flipcard';
 const product =[
    {
@@ -89,6 +89,12 @@ const product =[
     image:ghyampoImg,
     description:'Container made up of clay.',
     useText:'Used in kitchens and religious rituals for storing water and grains.',
+    },
+          {
+    title:'Radi (रादी)',
+    image:radiImg,
+    description:'A traditional woolen blanket handmade from sheep or Chyangra wool.',
+    useText:'Used as a blanket for warmth in rural homes, or as a floor mat during sleep or prayer. Common in colder regions of Nepal.',
     },
   ]
 const Explore = () => {
