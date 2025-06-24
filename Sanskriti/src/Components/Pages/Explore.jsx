@@ -85,16 +85,28 @@ const product =[
     useText:'Used for storing and pouring water. Used in daily and ritual practices.',
     },
         {
-    title:'Ghaympo (घ्याम्पो)',
+    title:'Ghaympo(घ्याम्पो)',
     image:ghyampoImg,
-    description:'Container made up of clay.',
+    description:'Container made up of clay or brass.',
     useText:'Used in kitchens and religious rituals for storing water and grains.',
     },
           {
     title:'Radi (रादी)',
     image:radiImg,
-    description:'A traditional woolen blanket handmade from sheep or Chyangra wool.',
+    description:'Woolen handmade blanket from sheep or Chyangra wool.',
     useText:'Used as a blanket for warmth in rural homes, or as a floor mat during sleep or prayer. Common in colder regions of Nepal.',
+    },
+    {
+title: 'Karuwa (करुवा)',
+  image: karuwaImg,
+  description: 'Traditional brass or copper water pitcher with a spout.',
+  useText: 'Used to store and pour water, especially during rituals and ceremonies.',
+    },
+    {
+    title: 'Namlo (नाम्लो)',
+  image: karuwaImg,
+  description: 'Head strap used to carry heavy loads, often paired with a doko.',
+  useText: 'Used to secure and balance heavy loads carried in a Doko on the back, helping farmers and laborers carry goods comfortably over long distances.',
     },
   ]
 const Explore = () => {
