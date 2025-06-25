@@ -14,6 +14,8 @@ import nangloImg from '../../assets/nanglo.png';
 import dhikiImg from '../../assets/dhiki.png';
 import ghaitoImg from '../../assets/ghaito.png';
 import radiImg from '../../assets/radi.png';
+import tukiImg from '../../assets/tuki.png';
+import thekiImg from '../../assets/theki.png';
 import Flipcard from './flipcard';
 const product =[
    {
@@ -102,12 +104,18 @@ title: 'Karuwa (करुवा)',
   description: 'Traditional brass or copper water pitcher with a spout.',
   useText: 'Used to store and pour water, especially during rituals and ceremonies.',
     },
+   {
+  title: 'Tuki (टुकी)',
+  image: tukiImg,
+  description: 'Traditional oil lamp made from metal.',
+  useText: 'Used for lighting homes before electricity. Also used in puja rituals.',
+},
     {
-    title: 'Namlo (नाम्लो)',
-  image: karuwaImg,
-  description: 'Head strap used to carry heavy loads, often paired with a doko.',
-  useText: 'Used to secure and balance heavy loads carried in a Doko on the back, helping farmers and laborers carry goods comfortably over long distances.',
-    },
+  title: 'Theki (थेकी)',
+  image: thekiImg,
+  description: 'A wooden or clay vessel used to store milk and curd.',
+  useText: 'Traditionally used in rural households to store and ferment milk into curd or butter.',
+},
   ]
 const Explore = () => {
      const navigate=useNavigate();
