@@ -4,8 +4,10 @@ import '../../index.css';
 const Flipcard = ({title,image,description,useText}
 ) => {
   const navigate=useNavigate();
-  return (
-    <div className='w-72 h-86 mt-10 perspective'>
+ return (
+    
+    <div className='w-72 h-86 mt-4 perspective'>
+      
       <div className='flip-card-inner'>
         <div className='flip-card-front bg-white/55 p-6 flex flex-col items-center justify-center '>
 <img className="h-48 w-50 rounded-2xl" src={image} alt={title} />

@@ -119,12 +119,20 @@ title: 'Karuwa (करुवा)',
   ]
 const Explore = () => {
      const navigate=useNavigate();
-  return (
+  return (<>
+    
     <div className='bg-gradient-to-b from-[#B07A5A] to-[#FFD89A] min-h-screen flex flex-wrap justify-center gap-10 p-10'>
+       <h1 className='text-4xl font-bold text-center text-amber-950 mb-1 mt-10'>
+          Sanskriti Bazar – Explore <br />
+       
+          (Discover Tools That Tell Stories, hover to know uses) </h1>
+           <div className='flex flex-wrap justify-center gap-10 px-10 pb-10'>
       {product.map((items,index)=>(
         <Flipcard key={index} title={items.title} image={items.image} description={items.description} useText={items.useText}/>
       ))}
     </div>
+    </div>
+    </>
     );
 };
 

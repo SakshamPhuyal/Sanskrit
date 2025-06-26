@@ -8,15 +8,16 @@ const Nav = () => {
     <div><NavLink to='/'>Home  </NavLink>
     <hr className='w-4/4 border-none h-1 bg-orange-300 hidden' />
     </div>
-       <div><NavLink to='/shop'>Shop</NavLink>
-<hr className='w-4/4 border-none h-1 bg-orange-300 hidden' />
-</div>
-<div>
+    <div>
        <NavLink to='/explore'>Explore </NavLink>
        <hr className='block w-4/4 border-0 h-1 bg-orange-300 hidden' />
        </div>
+       <div><NavLink to='/shop'>Shop</NavLink>
+<hr className='w-4/4 border-none h-1 bg-orange-300 hidden' />
+</div>
+
        <div >
-       <NavLink to='/about'>About</NavLink>
+       <NavLink to='/cart'>Cart</NavLink>
        <hr className='w-4/4 border-none h-1 bg-orange-300 hidden' />
        </div>
        <div>
