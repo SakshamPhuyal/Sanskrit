@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {Routes,Route} from 'react-router-dom'
 import './App.css'
 import './index.css'
@@ -14,8 +14,10 @@ import Flipcard from './Components/Pages/flipcard';
 import Shop from './Components/Pages/shop';
 import Productdetails from './Components/Pages/productdetails';
 function App() {
-
-
+const [cartItems,setCartItems]=useState([]);
+const handleAddToCart=(product)=>{
+  setCartItems((prevItems)=>[...prevItems,product]);
+};
   return (
     <>
   <div>
@@ -26,10 +28,10 @@ function App() {
 <Route path='/about' element={<About/>} />
 <Route path='/contact' element={<Contact/>} />  
 <Route path='/product/:productId' element={<Product/>} /> 
-<Route path='/cart' element={<Cart/>} /> 
+<Route path='/cart' element={<Cart items={cartItems} />} />
 <Route path='/login' element={<Login/>} /> 
 <Route path='/flipcard' element={<Flipcard/>} /> 
-<Route path='/shop' element={<Shop/>} /> 
+<Route path='/shop' element={<Shop onAddToCart={handleAddToCart} />} /> 
 <Route path='/productdetails' element={<Productdetails/>} /> 
     </Routes>
   </div>
