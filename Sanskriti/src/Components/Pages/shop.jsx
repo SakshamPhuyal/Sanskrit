@@ -110,7 +110,7 @@ const Shop = ({onAddToCart}) => {
             <h2 className="text-xl font-semibold text-center text-amber-900">{item.title}</h2>
             <p className="text-lg text-amber-800 mt-2">{item.price}</p>
           <button
-              className="mt-4 bg-amber-900 text-white px-5 py-2 rounded-xl hover:bg-amber-800 transition"
+              className="cursor-pointer mt-4 bg-amber-900 text-white px-5 py-2 rounded-xl hover:bg-amber-800 transition"
               onClick={() => onAddToCart(item)}>
               Add to Cart
             </button>
