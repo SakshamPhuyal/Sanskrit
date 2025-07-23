@@ -100,6 +100,11 @@ const products = [
 ];
 
 const Shop = ({onAddToCart}) => {
+  const handleClick = (item) => {
+  onAddToCart(item);
+  alert(`${item.title} added to cart!`);
+};
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#B07A5A] to-[#FFD89A] p-10 gap-10">
       <h1 className="text-4xl font-bold text-center text-amber-950 mb-10 mt-10">Sanskriti Bazar – Shop <p >(Nepal’s Tradition at Your Doorstep)</p></h1>
@@ -111,7 +116,7 @@ const Shop = ({onAddToCart}) => {
             <p className="text-lg text-amber-800 mt-2">{item.price}</p>
           <button
               className="cursor-pointer mt-4 bg-amber-900 text-white px-5 py-2 rounded-xl hover:bg-amber-800 transition"
-              onClick={() => onAddToCart(item)}>
+              onClick={() =>handleClick(item)}>
               Add to Cart
             </button>
           </div>
