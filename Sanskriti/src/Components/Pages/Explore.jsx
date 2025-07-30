@@ -34,7 +34,7 @@ const product =[
     title:'Halo (हलो)',
     image:haloImg,
     description:'A wooden plough, often attached to oxen.',
-    useText:'Historically, the doko was used by Nepalese villagers to carry crops, goods, and firewood.',
+    useText:'It is a traditional agricultural tool. It’s essentially a type of plow used to till the soil before planting crops.'
     },
             {
     title:'Juwa (जुवा)',

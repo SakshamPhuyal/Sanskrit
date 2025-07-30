@@ -1,4 +1,6 @@
 import React from 'react';
+import { toast } from 'react-toastify';
+
 import dokoImg from '../../assets/doko.png';
 import daloImg from '../../assets/dalo.png';
 import pathiImg from '../../assets/pathi.png';
@@ -98,16 +100,21 @@ const products = [
     price: '₨850',
   },
 ];
-
 const Shop = ({onAddToCart}) => {
-  const handleClick = (item) => {
+const handleClick = (item) => {
   onAddToCart(item);
-  alert(`${item.title} added to cart!`);
+  toast.success(`${item.title} added to cart!`, {
+    position: 'top-right',
+    autoClose: 2000,
+    hideProgressBar: false,
+    pauseOnHover: true,
+    theme: 'colored',
+  });
 };
-
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#B07A5A] to-[#FFD89A] p-10 gap-10">
-      <h1 className="text-4xl font-bold text-center text-amber-950 mb-10 mt-10">Sanskriti Bazar – Shop <p >(Nepal’s Tradition at Your Doorstep)</p></h1>
+      <h1 className="text-4xl font-bold text-center text-amber-950 mb-10 mt-10">
+        Sanskriti Bazar – Shop <p >(Nepal’s Tradition at Your Doorstep)</p></h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 px-30">
         {products.map((item, index) => (
           <div key={index} className=" bg-white/55 p-6 flex flex-col items-center justify-center w-72 h-89 rounded-3xl ">
