@@ -14,12 +14,11 @@ const Home = () => {
         <p className='mb-1.5 text-6xl text-white + drop-shadow-lg text-center'>-"Back to our roots"</p>
       <p className='text-4xl  text-white font-semibold + drop-shadow-lg text-center'>Learn about Nepali tradition and explore our traditional items that reflect our culture</p>
 <div className='flex space-x-70 mt-6 justify-center'>
-<button onClick={()=> navigate('/shop')} className='text-black text-2xl bg-orange-100 + drop-shadow-lg h-15 w-35 border-2 border-black cursor-pointer rounded-lg'>Shop Now</button>
-<button onClick={()=> navigate('/explore')} className='text-black text-2xl bg-orange-100 + drop-shadow-lg h-15  w-35 border-2 border-black cursor-pointer rounded-lg'>Explore</button>
+<button onClick={()=> navigate('/shop')} className='text-black text-2xl bg-orange-100 + drop-shadow-lg h-15 w-35 border-2 border-black cursor-pointer rounded-lg shadow-xl transform hover:scale-105 transition-transform duration-300'>Shop Now</button>
+<button onClick={()=> navigate('/explore')} className='text-black text-2xl bg-orange-100 + drop-shadow-lg h-15  w-35 border-2 border-black cursor-pointer rounded-lg transform hover:scale-105 transition-transform duration-300'>Explore</button>
    </div>
     </div>
     </div>
   )
 }
-
 export default Home

@@ -17,7 +17,7 @@ const Flipcard = ({title,image,description,useText}
         <div className='flip-card-back p-6 flex flex-col items-center justify-center'>
           <h2 className='text-2xl text-gray-800 font-semibold mb-2'>Use</h2>
           <p className='text-lg text-gray-700 text-center'>{useText}</p>
- <button onClick={() => navigate('/shop')} className='text-white w-20 h-10 bg-black rounded-3xl mt-4'>Shop</button>
+ <button onClick={() => navigate('/shop')} className='text-white w-20 h-10 bg-black rounded-3xl mt-4 hover:cursor-pointer'>Shop</button>
         </div>
       </div>
       
